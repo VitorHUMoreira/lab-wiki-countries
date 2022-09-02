@@ -51,6 +51,12 @@ function CountryDetails({ countries }) {
                 <td>{country.capital[0]}</td>
               </tr>
               <tr>
+                <td style={{ width: '30%' }}>Region</td>
+                <td>
+                  {country.region} - {country.subregion}
+                </td>
+              </tr>
+              <tr>
                 <td>Area</td>
                 <td>
                   {country.area} km<sup>2</sup>
